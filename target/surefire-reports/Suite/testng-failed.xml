@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="flipkart.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="validate label(failed)" parallel="tests">
+    <classes>
+      <class name="flipkart.TC_cartLable_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="cartlabelTest"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- flipkart.TC_cartLable_Test -->
+    </classes>
+  </test> <!-- validate label(failed) -->
+  <test thread-count="5" verbose="0" name="validate loginTest(failed)" parallel="tests">
+    <classes>
+      <class name="flipkart.SignInTest">
+        <methods>
+          <include name="initializer"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- flipkart.SignInTest -->
+    </classes>
+  </test> <!-- validate loginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

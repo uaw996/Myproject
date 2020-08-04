@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 27.753 s <<< FAILURE! - in TestSuite
+flipkart.SignInTest.initializer  Time elapsed: 26.949 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11874
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'UMESH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: FirefoxDriver
+	at flipkart.SignInTest.initializer(SignInTest.java:32)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11874
+	at flipkart.SignInTest.initializer(SignInTest.java:32)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at flipkart.SignInTest.initializer(SignInTest.java:32)
+
+flipkart.TC_cartLable_Test.startTest  Time elapsed: 26.965 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:47496
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'UMESH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: FirefoxDriver
+	at flipkart.TC_cartLable_Test.startTest(TC_cartLable_Test.java:24)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:47496
+	at flipkart.TC_cartLable_Test.startTest(TC_cartLable_Test.java:24)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at flipkart.TC_cartLable_Test.startTest(TC_cartLable_Test.java:24)
+
