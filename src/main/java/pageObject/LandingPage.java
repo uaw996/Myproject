@@ -4,10 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LandingPage {
 	public WebDriver driver;
-
+	
 	By electronics = By.xpath("/html/body/div/div/div[2]/div/ul/li[1]/span");
 	By mobile_Holder = By.xpath("(//a[@title='Mobile Holders'])[1]");
 	By login = By.cssSelector("a._3Ep39l");
@@ -48,11 +51,32 @@ public class LandingPage {
 
 	}
 
+	
+
+	
+
 	public Actions getMouseOnElectronic() {
+//		WebDriverWait w = new WebDriverWait(driver,30);
 		Actions action = new Actions(driver);
 //		WebElement electronic =driver.findElement(electronics).;
-		return action.moveToElement(driver.findElement(electronics)).moveToElement(driver.findElement(mobile_Holder));
+//		w.until(ExpectedConditions.visibilityOfElementLocated(mobile_Holder));
+		
+		return action.moveToElement(driver.findElement(electronics));
+				
+	
+
+	}public Actions getMouseOnmobile_Holder() {
+		WebDriverWait w = new WebDriverWait(driver,5);
+		Actions action = new Actions(driver);
+//		WebElement electronic =driver.findElement(electronics).;
+		w.until(ExpectedConditions.visibilityOfElementLocated(mobile_Holder));
+		
+		
+				
+		return	action.moveToElement(driver.findElement(mobile_Holder));
 
 	}
+
+	
 
 }

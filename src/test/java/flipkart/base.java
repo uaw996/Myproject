@@ -72,8 +72,8 @@ public class base {
 	}
 
 	@AfterClass
-	public void tearDown() {
-
+	public void tearDown() throws InterruptedException {
+		Thread.sleep(3000);
 		driver.close();
 
 	}

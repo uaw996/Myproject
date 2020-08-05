@@ -21,7 +21,6 @@
         <methods>
           <include name="tearDown"/>
           <include name="cartlabelTest"/>
-          <include name="validateMoblieHolder"/>
           <include name="startTest"/>
         </methods>
       </class> <!-- flipkart.TC_cartLable_Test -->

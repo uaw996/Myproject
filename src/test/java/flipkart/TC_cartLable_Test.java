@@ -50,10 +50,19 @@ public class TC_cartLable_Test extends base {
 	}
 	
 	@Test
-	public void validateMoblieHolder() throws InterruptedException {
+	public void validateElectronics() throws InterruptedException {
 		
-		Thread.sleep(3000);
-	la.getMouseOnElectronic().click().build().perform();	
+	
+	la.getMouseOnElectronic().build().perform();	
+		
+		
+	}
+
+	@Test
+	public void validateMoblie_handler() throws InterruptedException {
+		
+		
+	la.getMouseOnmobile_Holder().click().build().perform();	
 		
 		
 	}
