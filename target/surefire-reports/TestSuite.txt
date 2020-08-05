@@ -1,28 +1,31 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 27.753 s <<< FAILURE! - in TestSuite
-flipkart.SignInTest.initializer  Time elapsed: 26.949 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11874
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'UMESH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: driver.version: FirefoxDriver
-	at flipkart.SignInTest.initializer(SignInTest.java:32)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11874
-	at flipkart.SignInTest.initializer(SignInTest.java:32)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at flipkart.SignInTest.initializer(SignInTest.java:32)
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 100.619 s <<< FAILURE! - in TestSuite
+flipkart.SignInTest.loginTest[ajshfh, pass](1)  Time elapsed: 24.434 s  <<< FAILURE!
+java.lang.AssertionError: Invalid creadintial expected [true] but found [false]
+	at flipkart.SignInTest.loginTest(SignInTest.java:53)
 
-flipkart.TC_cartLable_Test.startTest  Time elapsed: 26.965 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:47496
+flipkart.SignInTest.loginTest[djsjjd, jhsdjhf](2)  Time elapsed: 2.591 s  <<< FAILURE!
+java.lang.AssertionError: Invalid creadintial expected [true] but found [false]
+	at flipkart.SignInTest.loginTest(SignInTest.java:53)
+
+flipkart.SignInTest.loginTest[7745818782, Ume5sh67#](3)  Time elapsed: 1.52 s  <<< FAILURE!
+java.lang.AssertionError: Invalid creadintial expected [true] but found [false]
+	at flipkart.SignInTest.loginTest(SignInTest.java:53)
+
+flipkart.TC_cartLable_Test.cartlabelTest  Time elapsed: 6.673 s  <<< FAILURE!
+java.lang.AssertionError: Invalid creadintial expected [true] but found [false]
+	at flipkart.TC_cartLable_Test.cartlabelTest(TC_cartLable_Test.java:44)
+
+flipkart.TC_cartLable_Test.validateMoblieHolder  Time elapsed: 0.274 s  <<< FAILURE!
+org.openqa.selenium.JavascriptException: 
+javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=84.0.4147.105)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'UMESH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: driver.version: FirefoxDriver
-	at flipkart.TC_cartLable_Test.startTest(TC_cartLable_Test.java:24)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:47496
-	at flipkart.TC_cartLable_Test.startTest(TC_cartLable_Test.java:24)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at flipkart.TC_cartLable_Test.startTest(TC_cartLable_Test.java:24)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Umesh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51910}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0a0f3f79ac5b048f42e52e837cb7a1a0
+	at flipkart.TC_cartLable_Test.validateMoblieHolder(TC_cartLable_Test.java:51)
 

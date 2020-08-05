@@ -29,25 +29,30 @@ public class TC_cartLable_Test extends base {
 	public void cartlabelTest() throws InterruptedException {
 
 		driver.get(prop.getProperty("url"));
+		
+		Thread.sleep(2000);
 		log.info("enter url");
 		la = new LandingPage(driver);
 
-		la.getuserName().sendKeys("username");
-		log.info("enter username");
-		la.getpassword().sendKeys("password");
-		log.info("enter password");
-		LoginPage lp = la.getLoginBtn();
-		log.info("click on submit");
+//		la.getuserName().sendKeys("username");
+//		log.info("enter username");
+//		la.getpassword().sendKeys("password");
+//		log.info("enter password");
+//		LoginPage lp = la.getLoginBtn();
+//		log.info("click on submit");
 
-		lp.searchTab().sendKeys("mobile");
+//		lp.searchTab().sendKeys("mobile");
 
 		Assert.assertTrue(driver.getTitle().matches("Online Shopping Site for Mobiles, Electronics, "
 				+ "Furniture, Grocery, Lifestyle, Books & More. Best Offers!"), "Invalid creadintial");
 		log.debug("validate by with different credential");
 
 	}
+	
 	@Test
-	public void validateMoblieHolder() {
+	public void validateMoblieHolder() throws InterruptedException {
+		
+		Thread.sleep(3000);
 	la.getMouseOnElectronic().click().build().perform();	
 		
 		

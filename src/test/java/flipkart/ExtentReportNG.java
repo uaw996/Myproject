@@ -22,12 +22,12 @@ public class ExtentReportNG {
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester", "Umesh Bhaskar Awasarmol");
-		ExtentEmailReporter emailReporter = new ExtentEmailReporter("Email.html");
+//		ExtentEmailReporter emailReporter = new ExtentEmailReporter("Email.html");
 
 		// optional, select a template
 		
 
-		extent.attachReporter(emailReporter);
+//		extent.attachReporter(emailReporter);
 		return extent;
 		
 		
