@@ -35,7 +35,7 @@ public class CustomListeners extends base implements ITestListener {
 	}
 
 	public void onTestFailure(ITestResult result) {
-		System.out.println("****");
+
 		WebDriver driver = null;
 		extentTest.get().fail(result.getThrowable());
 	String testMethodName =	result.getMethod().getMethodName();
