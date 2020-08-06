@@ -34,18 +34,18 @@ public class TC_cartLable_Test extends base {
 		log.info("enter url");
 		la = new LandingPage(driver);
 
-//		la.getuserName().sendKeys("username");
-//		log.info("enter username");
-//		la.getpassword().sendKeys("password");
-//		log.info("enter password");
+		la.getuserName().sendKeys("username");
+		log.info("enter username");
+		la.getpassword().sendKeys("password");
+		log.info("enter password");
 //		LoginPage lp = la.getLoginBtn();
 //		log.info("click on submit");
 
 //		lp.searchTab().sendKeys("mobile");
 
-//		Assert.assertTrue(driver.getTitle().matches("Online Shopping Site for Mobiles, Electronics, "
-//				+ "Furniture, Grocery, Lifestyle, Books & More. Best Offers!"), "Invalid creadintial");
-//		log.debug("validate by with different credential");
+		Assert.assertTrue(driver.getTitle().matches("Online Shopping Site for Mobiles, Electronics, "
+				+ "Furniture, Grocery, Lifestyle, Books & More. Best Offers!"), "Invalid creadintial");
+		log.debug("validate by with different credential");
 
 	}
 	

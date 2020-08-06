@@ -1503,3 +1503,31 @@
 06 Aug 2020 17:16:58.644 [main] INFO  flipkart.SignInTest - enter password
 06 Aug 2020 17:17:08.652 [main] INFO  flipkart.TC_cartLable_Test - browser launch
 06 Aug 2020 17:17:16.068 [main] INFO  flipkart.TC_cartLable_Test - enter url
+06 Aug 2020 17:27:15.081 [main] INFO  flipkart.SignInTest - browser is launch
+06 Aug 2020 17:27:15.081 [main] INFO  flipkart.SignInTest - browser is launch
+06 Aug 2020 17:27:23.009 [main] INFO  flipkart.SignInTest - getting url
+06 Aug 2020 17:27:23.009 [main] INFO  flipkart.SignInTest - getting url
+06 Aug 2020 17:27:23.047 [main] INFO  flipkart.SignInTest - logging url
+06 Aug 2020 17:27:23.047 [main] INFO  flipkart.SignInTest - logging url
+06 Aug 2020 17:27:23.354 [main] INFO  flipkart.SignInTest - enter username
+06 Aug 2020 17:27:23.354 [main] INFO  flipkart.SignInTest - enter username
+06 Aug 2020 17:27:23.491 [main] INFO  flipkart.SignInTest - enter password
+06 Aug 2020 17:27:23.491 [main] INFO  flipkart.SignInTest - enter password
+06 Aug 2020 17:27:24.420 [main] INFO  flipkart.SignInTest - getting url
+06 Aug 2020 17:27:24.420 [main] INFO  flipkart.SignInTest - getting url
+06 Aug 2020 17:27:24.420 [main] INFO  flipkart.SignInTest - logging url
+06 Aug 2020 17:27:24.420 [main] INFO  flipkart.SignInTest - logging url
+06 Aug 2020 17:27:24.509 [main] INFO  flipkart.SignInTest - enter username
+06 Aug 2020 17:27:24.509 [main] INFO  flipkart.SignInTest - enter username
+06 Aug 2020 17:27:24.636 [main] INFO  flipkart.SignInTest - enter password
+06 Aug 2020 17:27:24.636 [main] INFO  flipkart.SignInTest - enter password
+06 Aug 2020 17:27:25.526 [main] INFO  flipkart.SignInTest - getting url
+06 Aug 2020 17:27:25.526 [main] INFO  flipkart.SignInTest - getting url
+06 Aug 2020 17:27:25.526 [main] INFO  flipkart.SignInTest - logging url
+06 Aug 2020 17:27:25.526 [main] INFO  flipkart.SignInTest - logging url
+06 Aug 2020 17:27:25.641 [main] INFO  flipkart.SignInTest - enter username
+06 Aug 2020 17:27:25.641 [main] INFO  flipkart.SignInTest - enter username
+06 Aug 2020 17:27:25.805 [main] INFO  flipkart.SignInTest - enter password
+06 Aug 2020 17:27:25.805 [main] INFO  flipkart.SignInTest - enter password
+06 Aug 2020 17:27:38.902 [main] INFO  flipkart.TC_cartLable_Test - browser launch
+06 Aug 2020 17:27:45.503 [main] INFO  flipkart.TC_cartLable_Test - enter url
