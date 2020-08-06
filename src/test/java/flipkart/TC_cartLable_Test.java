@@ -43,9 +43,9 @@ public class TC_cartLable_Test extends base {
 
 //		lp.searchTab().sendKeys("mobile");
 
-		Assert.assertTrue(driver.getTitle().matches("Online Shopping Site for Mobiles, Electronics, "
-				+ "Furniture, Grocery, Lifestyle, Books & More. Best Offers!"), "Invalid creadintial");
-		log.debug("validate by with different credential");
+//		Assert.assertTrue(driver.getTitle().matches("Online Shopping Site for Mobiles, Electronics, "
+//				+ "Furniture, Grocery, Lifestyle, Books & More. Best Offers!"), "Invalid creadintial");
+//		log.debug("validate by with different credential");
 
 	}
 	

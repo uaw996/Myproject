@@ -45,15 +45,15 @@ public class SignInTest extends base {
 		log.info("enter username");
 		la.getpassword().sendKeys(password);
 		log.info("enter password");
-		LoginPage lo=la.getLoginBtn();
-		log.info("click on submit");
-		
-//		Thread.sleep(10000);
-		
-		Assert.assertTrue(driver.getTitle().matches("Online Shopping Site for Mobiles, Electronics, "
-				+ "Furniture, Grocery, Lifestyle, Books & More. Best Offers!"), "Invalid creadintial");
-		log.debug("validate by with different credential");
-		
+//		LoginPage lo=la.getLoginBtn();
+//		log.info("click on submit");
+//		
+////		Thread.sleep(10000);
+//		
+//		Assert.assertTrue(driver.getTitle().matches("Online Shopping Site for Mobiles, Electronics, "
+//				+ "Furniture, Grocery, Lifestyle, Books & More. Best Offers!"), "Invalid creadintial");
+//		log.debug("validate by with different credential");
+//		
 		
 	}
 
